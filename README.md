@@ -21,8 +21,11 @@
 <img width="868" alt="스크린샷 2024-04-15 오후 12 44 27" src="https://github.com/hwan0309/Interpark_Ticket/assets/154872340/6b9f42be-a516-40d3-a593-4fea13fe3144">
 
 
-capcha ver
-tensor flow ver
+capcha ver<br>
+
+tensor flow ver <br>
+오차율 0.2%<br>
+<img width="443" alt="스크린샷 2024-05-24 오후 2 03 53" src="https://github.com/hwan0309/Interpark_Ticket/assets/154872340/31609058-c91a-4a0d-922a-7afbdff8394e">
 
 추후에 GUI버전으로 구현하겠습니다.
 출처 https://tickets.interpark.com/goods/24002387
