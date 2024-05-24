@@ -50,6 +50,8 @@ button_xpath = '//a[@class="sideBtn is-primary"]'
 driver.find_element(By.XPATH, button_xpath).click()
 
 # OCR 설정 및 캡차 처리
+#이미지 추출이 되지 않는다면 loss파일 코드로 실행
+#이미지는 따로 학습
 reader = easyocr.Reader(['en'])
 def handle_captcha():
     try:
