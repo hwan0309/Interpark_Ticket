@@ -3,7 +3,7 @@ import numpy as np
 from PIL import Image
 import tensorflow as tf
 
-file_pattern = '/Users/seunghee/Desktop/PycharmProjects/Web_Macro/img_model/*.png'
+file_pattern = '/경로*.png'
 files = glob.glob(file_pattern)
 
 print("Files found:", files)
@@ -79,7 +79,7 @@ model.compile(optimizer='adam')
 image_array = np.array(image_list)
 label_array = np.array(label_list)
 
-weights_path = "/Web_Macro/img/.weights.h5"
+weights_path = "/경로.weights.h5"
 
 model.fit([image_array, label_array], label_array, epochs=10, batch_size=32, verbose=1)
 
